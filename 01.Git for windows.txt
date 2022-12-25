@@ -1,0 +1,11 @@
+* Download git for windows - https://git-scm.com/downloads
+* Run installer
+* Defaults OK
+* Choose Git bash + command prompt
+* Add minimal comfiguration
+  * Username
+  * Email
+* To add minimal configuration
+  * In git bash
+    - git config --global user.name "Your Name"
+    - git config --global user.email "your@email.com"

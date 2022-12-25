@@ -1,0 +1,38 @@
+* Add a file/files to the repository
+* git status
+* git add . (to add all the file to staging)
+* git status
+* git commit -m "Demo Commit" (to commit the local repository)
+
+* To delete the repository 
+  * rm -rf .git
+
+* To log all the commits in the git repository
+  * git log
+
+* To show the last commit using show commit
+  * git show 
+  * To exit from it -> press 'q'
+
+* To check status of the files in git
+  * git status
+  
+* Express commit -> to add and commit with single command
+  * git commit -am "Adding and committing"
+  
+* To remove a file from stagin area after adding it using "git add ."
+  * git reset -- <fileName>
+  
+* To remove changes from a file
+  * git checkout -- <fileName>
+  
+* To rename a file 
+  * git mv <oldFileName> <newFileName> -> only staged, to rename a file in the git repository, we have to commit
+  
+* To remove a file
+  * git rm <fileName> -> only staged, to remove a file in the git repository, we have to commit
+  
+* Excluding unwanted file in the repository
+  * Create a file called ".gitIgnore"
+  * Add the file path of the file to be excluded 
+  * Finally add and commit the ".gitignore" file to git

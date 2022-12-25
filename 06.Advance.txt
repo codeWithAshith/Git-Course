@@ -1,0 +1,39 @@
+* Changes made on a file can be seen
+  * git diff -> shows the difference in command prompt
+  * git difftool -> shows the difference in diff tool
+
+* View all branches in local Repository
+  * git branch
+  
+* To create a new branch in local repository
+  * git checkout -b <branchName>
+  
+* To switch branch in local repository
+  * git checkout <branchName>
+  
+* To merge a branch to the current branch (fast forward)
+  * git merge <branchName>
+  
+* To delete a branch in local repository
+  * git branch -d <branchName>
+  
+* To remove merge conflict (updating the same line on same file on both the branches)
+  * git mergetool
+  
+* Tags - to give name to a commit
+  * git tag <tagName>
+  
+* To view all tags
+  * git tag --list
+  
+* To delete a tag
+  * git tag -d <tagName>
+  
+* Annotated tags - contains more information about tags
+  * git tag -a v1.0 -m "Release 1.0"
+  
+* To rollback to previews commit
+  * git reset <commitId> --soft (soft changes to head to the poiting to head)
+  * git reset <commitId> --hard (hardflag changes are lost) 
+  * git reflog (git log shows all the logs of the ropoditory with commitIF)
+  

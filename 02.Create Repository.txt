@@ -1,0 +1,3 @@
+* git init <REPOSITORY_NAME> (to initialize git repo)
+* cd <REPOSITORY_NAME> (to navigate to the create repo or project folder)
+* ls -a (will container only one folder called .git)

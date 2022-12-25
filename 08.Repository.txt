@@ -1,0 +1,11 @@
+* To clone a repository 
+  * git clone <sshUrl>
+
+* If we have a change in local and remote repository, we cannot push unless we update the code from remote to local repository
+* We can update the same using two ways
+  * git pull -> the copy of the remote directory changes into the local repository
+  * git fetch ->  tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository
+
+* To set remote origin after updating the name from github
+  * git remote set-url origin <sshUrl>
+  

@@ -1,0 +1,17 @@
+* To create a branch and push to guthub
+  * git checkout -b <branchName>
+  * git commit -am "new Branch"
+  * git push -u origin <branchName>
+  
+* Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
+* Once a pull request is opened, you can discuss and review the potential changes with collaborators 
+* Add follow-up commits before your changes are merged into the base branch.
+
+* To pull all remote branches
+  * gut fetch
+  * git branch -a
+  * git checkout <remoteBranchName>
+  
+* To delete a remote branch
+  * git push origin :<remoteBranchName>
+  

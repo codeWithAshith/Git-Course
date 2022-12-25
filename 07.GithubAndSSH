@@ -1,0 +1,23 @@
+* To add files to a newly created branch using github
+  * git init
+  * git add .
+  * git commit -m "initial commit”
+  * git remote add origin https: //github.com/<USERNAME>/<REPOSITORY>.git
+  * git push -u origin main
+
+* To add files to an existing github
+  * git remote add origin https: //github.com/<USERNAME>/<REPOSITORY>.git
+  * git push -u origin mai
+
+* git remote set-url origin https://< USERNAME>:<TOKEN>@github.com/<USERNAME>/<REPOSITORY>.git
+
+* Using https to do push and pull each time will require username and password most times.
+* Using SSH, we can connect with public and private key.
+* Generate SSH key
+* Run the ssh-keygen command to create SSH keys
+* Copy the value of the SSH public key
+* Save the public key in your GitHub account settings
+  * ssh-keygen -o -t rsa -C "windows-ssh@mcnz.com"
+  * dir
+  * open id_rsa.pub
+  * Copy the key, with the SSH key copied, log into GitHub, navigate to your account settings, and paste the public key as a new SSH key
